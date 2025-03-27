@@ -1,0 +1,12 @@
+{
+  "name": "rsbuild-federation-shares",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build:preview": "pnpm run --parallel build:preview"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}

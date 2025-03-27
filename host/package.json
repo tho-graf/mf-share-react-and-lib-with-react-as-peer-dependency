@@ -1,0 +1,17 @@
+{
+  "name": "host",
+  "private": true,
+  "scripts": {
+    "build:preview": "pnpm run build && rsbuild preview",
+    "build": "rsbuild build",
+    "dev": "rsbuild dev"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "^0.10.0"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.10.0",
+    "@rsbuild/core": "^1.2.18",
+    "@rsbuild/plugin-react": "^1.1.1"
+  }
+}

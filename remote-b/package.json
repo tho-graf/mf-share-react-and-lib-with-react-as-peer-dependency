@@ -1,0 +1,22 @@
+{
+  "name": "remote-b",
+  "private": true,
+  "scripts": {
+    "build:preview": "pnpm run build && rsbuild preview",
+    "build": "rsbuild build",
+    "dev": "rsbuild dev"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.10.0",
+    "@rsbuild/core": "^1.2.18",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.5"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "^0.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shared-lib": "workspace:*"
+  }
+}

@@ -1,0 +1,5 @@
+packages:
+  - host/
+  - remote-a/
+  - remote-b/
+  - shared-lib/
