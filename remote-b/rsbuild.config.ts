@@ -25,7 +25,7 @@ export default defineConfig({
         },
         "shared-lib": {
           singleton: true,
-          shareKey: "shared-lib:1.0.0",
+          shareKey: "shared-lib:1.0.0@react:18.3.1",
           shareScope: "legacy",
           version: "1.0.0",
           requiredVersion: "1.0.0",

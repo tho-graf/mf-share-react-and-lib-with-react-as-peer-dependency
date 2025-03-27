@@ -23,7 +23,7 @@ export default defineConfig({
         },
         "shared-lib": {
           singleton: true,
-          shareKey: "shared-lib:1.0.0",
+          shareKey: "shared-lib:1.0.0@react:19.0.0",
           version: "1.0.0",
           requiredVersion: "1.0.0",
         },
